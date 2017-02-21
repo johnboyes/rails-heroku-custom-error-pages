@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# enable features such as static asset serving and logging on Heroku
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7'
 # Use postgresql as the database for Active Record
