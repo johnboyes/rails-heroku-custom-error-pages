@@ -13,7 +13,7 @@ Ruby buildpack
 heroku buildpacks:set heroku/ruby
 ```
 
-Append the buildpack-ruby-rails-custom-error-pages to your buildpack list:
+Append the custom [buildpack-ruby-rails-custom-error-pages] buildpack to your buildpack list:
 
 ```
 heroku buildpacks:add https://github.com/johnboyes/buildpack-ruby-rails-custom-error-pages
@@ -29,5 +29,6 @@ the custom 404 page.
 MIT, see the [LICENSE.md](LICENSE.md) file.
 
 [ruby-buildpack]:https://github.com/heroku/heroku-buildpack-ruby
+[buildpack-ruby-rails-custom-error-pages]:https://github.com/johnboyes/buildpack-ruby-rails-custom-error-pages
 [Heroku Dev Center article on multiple buildpacks]:https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app
 [Deploy the app to Heroku]: https://devcenter.heroku.com/articles/getting-started-with-rails4#deploy-your-application-to-heroku
